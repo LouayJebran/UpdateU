@@ -1,0 +1,10 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@if (Model?.Items != null)
+{
+    var model = Model.Items.FirstOrDefault();
+
+    var link = model.GetValue<string>("link");
+    var displayName = model.GetValue<string>("displayName");
+
+    <a href="@link">@displayName</a>
+}

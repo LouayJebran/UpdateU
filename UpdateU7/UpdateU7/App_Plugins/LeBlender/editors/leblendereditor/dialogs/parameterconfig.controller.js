@@ -137,7 +137,7 @@
     	                        dataTypeGuid: editor.dataType,
     	                        editorAlias: editor.alias,
     	                        PropertyEditorAlias: editor.PropertyEditorAlias,
-    	                        DataTypeName: editr.DataTypeName,
+    	                        DataTypeName: editor.DataTypeName,
     	                        editorName: editor.name,
     	                        $editor: editor,
     	                        $order: order,

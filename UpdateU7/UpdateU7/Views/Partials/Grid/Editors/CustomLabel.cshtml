@@ -1,0 +1,13 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@if (Model?.Items != null)
+{
+    var model = Model.Items.FirstOrDefault();
+
+    var labelText = model.GetValue<string>("labelText");
+    var isWhite = model.GetValue<bool>("isWhite");
+    var style = isWhite ? "background-color: white; color:blue" : "background-color: blue; color: white";
+
+    <div style="@style">
+        @labelText
+    </div>
+}
