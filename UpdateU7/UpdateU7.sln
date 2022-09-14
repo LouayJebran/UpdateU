@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateU7", "UpdateU7\Update
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateV8", "UpdateV8\UpdateV8.csproj", "{BC05AB4F-C7B6-4FEA-B7BA-8880F18E168E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateV9", "UpdateV9\UpdateV9.csproj", "{43252B2C-3F90-4967-8896-F65F4F2D80F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateV9", "UpdateV9\UpdateV9.csproj", "{43252B2C-3F90-4967-8896-F65F4F2D80F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,3 @@
-using Umbraco.Cms.Core.DependencyInjection;
-using Umbraco.Extensions;
-
 namespace UpdateV9
 {
     public class Startup
